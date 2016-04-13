@@ -220,3 +220,4 @@ plot(Plot_Loc, col=soil_col, pch=23, main="Soil Types")
 legend("bottomright", legend = lvl, pch = symbl)
 
 
+

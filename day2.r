@@ -165,20 +165,35 @@ hm["rows"]
 
 # Get data
 DSM_HARV <- raster("NEON-DS-Airborne-Remote-Sensing/HARV/CHM/HARV_chmCrop.tif")
+
 crs(DSM_HARV)
+nlayers(DSM_HARV)
 
-# Plot
-plot(DSM_HARV)
+# Plotting layers
+plot(DSM_HARV,main = "Harvard Forest Digital Surface Model", axes=FALSE, add=TRUE)
+
+DSMhill_HARV <- raster("NEON-DS-Airborne-Remote-Sensing/HARV/DSM/HARV_DSMhill.tif")
+
+plot(DSMhill_HARV, main = "Harvard Forest Digital Surface Model Hill", add = TRUE)
+
+# Add hillshade
+plot(DSMhill_HARV, col = grey(1:100/100), alpha=0.4, legend=FALSE, add = TRUE)
 
 
+# Play w/ palette
+plot(DSM_HARV, col = rainbow(100), main = "Harvard Forest Digital Surface Model", axes=FALSE, add=TRUE)
 
 
+# EXERCISE
+# NEON_RemoteSensing/SJER/
 
+# Crop
+sjer_crop <- raster("NEON-DS-Airborne-Remote-Sensing/SJER/DTM/SJER_dtmCrop.tif")
+plot(sjer_crop,axes=FALSE, legend=FALSE, main="SJER Hillshade")
 
-
-
-
-
+# Hill
+sjer_hill <- raster("NEON-DS-Airborne-Remote-Sensing/SJER/DTM/SJER_dtmHill.tif")
+plot(sjer_hill,col = grey(1:100/100), alpha=0.5, legend=FALSE, main="SJER Hillshade", add=TRUE)
 
 
 
