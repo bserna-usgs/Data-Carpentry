@@ -87,4 +87,15 @@ RGB_stack_HARV
 plotRGB(RGB_stack_HARV, r=3, g=2, b=1)
 plotRGB(RGB_stack_HARV)
 
+wna <- stack("NEON-DS-Airborne-Remote-Sensing/HARV/RGB_Imagery/HARV_Ortho_wNA.tif")
+plotRGB(wna)
+
+GDALinfo("NEON-DS-Airborne-Remote-Sensing/HARV/RGB_Imagery/HARV_Ortho_wNA.tif")
+
+GDALinfo("NEON-DS-Airborne-Remote-Sensing/HARV/RGB_Imagery/HARV_Ortho_wNA.tif")
+
+
+
+
+
 
