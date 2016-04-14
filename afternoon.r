@@ -94,6 +94,8 @@ GDALinfo("NEON-DS-Airborne-Remote-Sensing/HARV/RGB_Imagery/HARV_Ortho_wNA.tif")
 
 GDALinfo("NEON-DS-Airborne-Remote-Sensing/HARV/RGB_Imagery/HARV_Ortho_wNA.tif")
 
+# How to convert a shapefile with the non-data raster so it's clear
+writeRaster(newObject, "path", NAflag=-9999)
 
 
 
