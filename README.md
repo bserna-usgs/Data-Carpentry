@@ -8,5 +8,15 @@ http://neondataskills.org/R/
 
 ##### Examples:
 
+##### Average Tree Heights Histogram
+
 ![Tree Heights](/tree_heights_histogram.jpeg)
+
+##### Harvard Raster w/o unknown data pts
+
+![](/HARV_raster_wo_unknowndatapts.jpeg)
+
+##### Bounding box example
+
+![](/bounding_boxes_ex.jpeg)
 
