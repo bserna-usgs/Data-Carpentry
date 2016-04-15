@@ -8,5 +8,5 @@ http://neondataskills.org/R/
 
 ##### Examples:
 
-!(/tree_heights_histogram.jpeg)
+![Tree Heights](/tree_heights_histogram.jpeg)
 
